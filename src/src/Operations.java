@@ -63,7 +63,7 @@ public class Operations {
 				
 			}
 			
-		    password = passwordBuilder.toString();
+		     password = passwordBuilder.toString();
 			    
 	}
 	
@@ -75,8 +75,6 @@ public class Operations {
 	  public void savePassword() throws FileNotFoundException {
 		  
 		  
-		    
-			
 			System.out.println("What is the password for: ");
 			String passwordPurpose = scan.next();
 			System.out.println("What is the username / E-mail for the password:");
