@@ -17,7 +17,7 @@ public class Operations {
 	}
 	
 	static String password = "";
-	
+	Scanner scan = new Scanner(System.in);
 	
 	
 	
@@ -28,7 +28,7 @@ public class Operations {
 	
 			Random random = new Random();
 			
-			 StringBuilder  passwordBuilder = new StringBuilder();
+			StringBuilder  passwordBuilder = new StringBuilder();
 			
 			//Adding the letters.
 			for ( int i = 0 ; i < 10 ; i++ ) {
@@ -63,10 +63,8 @@ public class Operations {
 				
 			}
 			
-			    password = passwordBuilder.toString();
+		    password = passwordBuilder.toString();
 			    
-			    
-			
 	}
 	
 	
@@ -77,7 +75,7 @@ public class Operations {
 	  public void savePassword() throws FileNotFoundException {
 		  
 		  
-		    Scanner scan = new Scanner(System.in);
+		    
 			
 			System.out.println("What is the password for: ");
 			String passwordPurpose = scan.next();
